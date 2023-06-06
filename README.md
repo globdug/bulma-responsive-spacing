@@ -8,7 +8,7 @@ I'm not an expert so, please, be merciful on judgements. :)
 If I have done it right, the CSS has all the
 spacing helpers classes of Bulma.
 
-> You can find all spacing helpers here
+> You can find all spacing helpers here  
 > **https://bulma.io/documentation/helpers/spacing-helpers/#list-of-all-spacing-helpers**
 
 ## Default breakpoints
@@ -53,7 +53,7 @@ $my-breakpoints : (
 
 You must set the map like the `$breakpoints` map in `initial-variables.sass`.
 
-> Check `$breakpoints` variable here:
+> Check `$breakpoints` variable here:  
 > **https://bulma.io/documentation/customize/variables/**
 
 ## Allowed Space
