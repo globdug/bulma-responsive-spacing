@@ -12,18 +12,19 @@ $spacing-vertical         : "y" !default;
 $spacing-values           : ("0": 0, "1": 0.25rem, "2": 0.5rem, "3": 0.75rem, "4": 1rem, "5": 1.5rem, "6": 3rem, "auto": auto) !default;
 
 // Extend Bulma breakpoints
+// @see https://github.com/jgthms/bulma/issues/451#issuecomment-1569994385
 $mobile-md                : 480px !default;
 $mobile-lg                : 600px !default;
 $my-breakpoints           : (
-	"mobile-xs" : (
-		"until" : $mobile-md
-	),
-	"mobile-md" : (
-		"from" : $mobile-md
-	),
-	"mobile-lg": (
-		"from" : $mobile-lg
-	)
+	//"mobile-xs" : (
+	//	"until" : $mobile-md
+	//),
+	//"mobile-md" : (
+	//	"from" : $mobile-md
+	//),
+	//"mobile-lg": (
+	//	"from" : $mobile-lg
+	//)
 );
 
 $breakpoints              : map-merge($breakpoints, $my-breakpoints);
@@ -42,9 +43,9 @@ $breakpoint-to-responsify : (
 	"widescreen-only": $widescreen-enabled,
 	"until-fullhd": $fullhd-enabled,
 	"fullhd": $fullhd-enabled,
-	"mobile-xs": true,
-	"mobile-md": true,
-	"mobile-lg": true,
+	//"mobile-xs": true,
+	//"mobile-md": true,
+	//"mobile-lg": true,
 );
 
 // Enable or disable the making of specific classes
